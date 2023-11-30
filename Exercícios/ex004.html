@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: bisque;
+            font: normal 20px Arial;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        var s = `JavaScript`
+        
+        document.write(s + "<br/>")
+        document.write(s.length + "<br/>")
+        document.write(s.toUpperCase()+ "<br/>")
+        document.write(s.toLowerCase()+ "<br/>")
+
+        var n1 = 123.3123
+        document.write(n1 + '<br/>')
+        document.write(n1.toFixed(2) + '<br/>') // to.fixed escolha quantas casas decimais após o "."
+
+        document.write(n1.toLocaleString/* seta o local*/ ('pt-BR', {style: 'currency', currency: 'BRL'})) 
+
+    </script>
+</body>
+</html>
