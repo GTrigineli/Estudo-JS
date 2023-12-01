@@ -4,8 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(200, 141, 255);
+            color: azure;
+            font: normal 18px Arial;
+            margin: 0;
+            
+        }
+    </style>
 </head>
 <body>
-    asdsasdsadasdasdasd
+    
+    <h1>Estudo de Dom</h1>
+    <p>Resultado</p>
+    <p>Aprendendo usar o <strong>DOM</strong></p>
+    <div>Clique em mim</div>
+
+    <script>
+        var p1 = document.getElementsByTagName('p')[1]
+     
+        document.write('Está escrito assim: ' + p1.innerText)
+
+    </script>
 </body>
 </html>
